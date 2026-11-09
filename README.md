@@ -1,4 +1,4 @@
-# M115 Lab 1 — Phishing URL Detection
+<img width="585" height="331" alt="image" src="https://github.com/user-attachments/assets/e35429d5-9923-45d8-83bd-06e1cc57d26e" /># M115 Lab 1 — Phishing URL Detection
 ### EDA, Parameterized Logistic Regression & SHAP Explainability
 
 <p align="center">
@@ -75,7 +75,8 @@ Exploratory Data Analysis is performed to understand the dataset, examine the ta
 
 The class distribution illustrates the number of legitimate and phishing websites.
 
-![Class Distribution]([figures/class_distribution.png](https://images.openai.com/static-rsc-4/n3yvNiMW4AwOj5qIPGHU7A_gbAPc2t3BWjBvvakMN0Wac0IE6r5cL8dwL5B5dtkaRKp2tkFyOSVv04w4cWiy71vb4uPKYo4_j8L1XNeMxTVAKSpiJUYqDt0StOzuknMr6ytS6PjF_L0u54JqwpHTUp6XLfqXAEcP2F6rGQ1vJhmGD0mrzNdJkiuLmMvDXzr4?purpose=fullsize)
+![Class Distribution]([figures/class_distribution.png]<img width="585" height="331" alt="image" src="https://github.com/user-attachments/assets/95c2c764-3e74-42f8-a6bb-795ce2ed859d" />
+
 
 ### 4.2 Feature Correlation Analysis
 
