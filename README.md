@@ -1,4 +1,4 @@
-<img width="585" height="331" alt="image" src="https://github.com/user-attachments/assets/e35429d5-9923-45d8-83bd-06e1cc57d26e" /># M115 Lab 1 — Phishing URL Detection
+# M115 Lab 1 — Phishing URL Detection
 ### EDA, Parameterized Logistic Regression & SHAP Explainability
 
 <p align="center">
@@ -75,14 +75,17 @@ Exploratory Data Analysis is performed to understand the dataset, examine the ta
 
 The class distribution illustrates the number of legitimate and phishing websites.
 
-![Class Distribution]([figures/class_distribution.png]<img width="585" height="331" alt="image" src="https://github.com/user-attachments/assets/95c2c764-3e74-42f8-a6bb-795ce2ed859d" />
-
+<p align="center">
+  <img width="585" height="331" alt="Phishing and legitimate class distribution" src="https://github.com/user-attachments/assets/95c2c764-3e74-42f8-a6bb-795ce2ed859d">
+</p>
 
 ### 4.2 Feature Correlation Analysis
 
 The correlation heatmap helps identify relationships between numerical features and detect potentially relevant indicators for phishing classification.
 
-![Correlation Heatmap]<img width="587" height="437" alt="image" src="https://github.com/user-attachments/assets/426a16aa-b6e6-4ff2-9787-c478d43e92b8" />
+<p align="center">
+  <img width="587" height="437" alt="Feature correlation heatmap" src="https://github.com/user-attachments/assets/426a16aa-b6e6-4ff2-9787-c478d43e92b8">
+</p>
 
 ## 5. Data Preprocessing
 
@@ -125,8 +128,9 @@ The models are evaluated using:
 - F1-score
 - PR-AUC
 
-![Model Comparison]<img width="587" height="437" alt="image" src="https://github.com/user-attachments/assets/c9076908-f356-4f4d-93d9-28dd30c212d0" />
-
+<p align="center">
+  <img width="587" height="437" alt="Logistic Regression model performance comparison" src="https://github.com/user-attachments/assets/c9076908-f356-4f4d-93d9-28dd30c212d0">
+</p>
 
 The comparison helps identify the configuration that provides the most suitable balance between phishing detection and false alarms.
 
@@ -140,13 +144,17 @@ It explains how individual features contribute to the model's predictions.
 
 The SHAP bar plot displays the most influential features based on their average absolute SHAP values.
 
-![SHAP Feature Importance](figures/shap_bar.png)
+<p align="center">
+  <img width="700" alt="SHAP feature importance bar plot" src="figures/shap_bar.png">
+</p>
 
 ### 7.2 SHAP Summary Plot
 
 The SHAP summary plot illustrates how feature values influence the model output and whether they contribute toward phishing or legitimate predictions.
 
-![SHAP Summary Plot](figures/shap_summary.png)
+<p align="center">
+  <img width="700" alt="SHAP summary plot" src="figures/shap_summary.png">
+</p>
 
 ### 7.3 Individual Prediction Explanation
 
@@ -160,10 +168,10 @@ The project also examines the relationship between classification results and cy
 
 The confusion matrix helps distinguish between:
 
-- True Positives (TP): Phishing websites correctly detected.
-- True Negatives (TN): Legitimate websites correctly classified.
-- False Positives (FP): Legitimate websites incorrectly classified as phishing.
-- False Negatives (FN): Phishing websites incorrectly classified as legitimate.
+- **True Positives (TP):** Phishing websites correctly detected.
+- **True Negatives (TN):** Legitimate websites correctly classified.
+- **False Positives (FP):** Legitimate websites incorrectly classified as phishing.
+- **False Negatives (FN):** Phishing websites incorrectly classified as legitimate.
 
 These errors have different security implications, particularly in a SOC environment.
 
@@ -179,7 +187,9 @@ The selected thresholds are:
 | 0.50 | Default Classification |
 | 0.85 | Automated Blocking — stricter decision threshold |
 
-![Threshold Analysis](figures/threshold_analysis.png)
+<p align="center">
+  <img width="700" alt="Classification threshold analysis" src="figures/threshold_analysis.png">
+</p>
 
 A lower threshold generally increases sensitivity to phishing websites, while a higher threshold can reduce false positives but may miss more phishing attempts.
 
@@ -277,6 +287,6 @@ Overall, this work illustrates how explainable Machine Learning can contribute t
 **Program:** Master in Intelligent Systems and Cyber Defense  
 **Module:** M115 — AI & Intelligent Systems  
 **Instructor:** Prof. Sara EL-ATEIF  
-**Academic Year:** 2026–2027
+**Academic Year:** 2026–2027  
 
 **Project:** M115 Lab 1 — Phishing URL Detection
