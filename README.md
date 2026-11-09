@@ -129,7 +129,8 @@ The models are evaluated using:
 - PR-AUC
 
 <p align="center">
-  <img width="587" height="437" alt="Logistic Regression model performance comparison" src="https://github.com/user-attachments/assets/c9076908-f356-4f4d-93d9-28dd30c212d0">
+ ![Uploading image.png…]()
+
 </p>
 
 The comparison helps identify the configuration that provides the most suitable balance between phishing detection and false alarms.
@@ -145,7 +146,8 @@ It explains how individual features contribute to the model's predictions.
 The SHAP bar plot displays the most influential features based on their average absolute SHAP values.
 
 <p align="center">
-  <img width="700" alt="SHAP feature importance bar plot" src="figures/shap_bar.png">
+ ![Uploading image.png…]()
+
 </p>
 
 ### 7.2 SHAP Summary Plot
@@ -180,12 +182,6 @@ These errors have different security implications, particularly in a SOC environ
 Different classification thresholds are evaluated to understand the trade-off between phishing detection and false alarms.
 
 The selected thresholds are:
-
-| Threshold | Security Strategy |
-|---|---|
-| 0.20 | Threat Hunting — prioritize phishing detection |
-| 0.50 | Default Classification |
-| 0.85 | Automated Blocking — stricter decision threshold |
 
 <p align="center">
   <img width="548" height="108" alt="image" src="https://github.com/user-attachments/assets/f7c8c033-30aa-45c5-b8ed-2993611262b7" />
