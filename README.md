@@ -75,7 +75,7 @@ Exploratory Data Analysis is performed to understand the dataset, examine the ta
 
 The class distribution illustrates the number of legitimate and phishing websites.
 
-![Class Distribution](figures/class_distribution.png)
+![Class Distribution]([figures/class_distribution.png](https://images.openai.com/static-rsc-4/n3yvNiMW4AwOj5qIPGHU7A_gbAPc2t3BWjBvvakMN0Wac0IE6r5cL8dwL5B5dtkaRKp2tkFyOSVv04w4cWiy71vb4uPKYo4_j8L1XNeMxTVAKSpiJUYqDt0StOzuknMr6ytS6PjF_L0u54JqwpHTUp6XLfqXAEcP2F6rGQ1vJhmGD0mrzNdJkiuLmMvDXzr4?purpose=fullsize)
 
 ### 4.2 Feature Correlation Analysis
 
