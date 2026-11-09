@@ -146,8 +146,7 @@ It explains how individual features contribute to the model's predictions.
 The SHAP bar plot displays the most influential features based on their average absolute SHAP values.
 
 <p align="center">
- ![Uploading image.png…]()
-
+ <img width="500" height="434" alt="image" src="https://github.com/user-attachments/assets/7c468b4e-44a3-424b-abcd-68b9d91918ab" />
 </p>
 
 ### 7.2 SHAP Summary Plot
@@ -155,7 +154,8 @@ The SHAP bar plot displays the most influential features based on their average 
 The SHAP summary plot illustrates how feature values influence the model output and whether they contribute toward phishing or legitimate predictions.
 
 <p align="center">
-  <img width="700" alt="SHAP summary plot" src="figures/shap_summary.png">
+  <img width="581" height="437" alt="image" src="https://github.com/user-attachments/assets/29cafa80-479a-4bd4-af49-c1998f9fe2fa" />
+
 </p>
 
 ### 7.3 Individual Prediction Explanation
@@ -278,12 +278,4 @@ The threshold analysis further highlights the importance of balancing phishing d
 
 Overall, this work illustrates how explainable Machine Learning can contribute to phishing detection and support security analysis in a SOC environment.
 
-## 13. Academic Information
 
-**Institution:** ENSIASD Taroudant — Ibn Zohr University  
-**Program:** Master in Intelligent Systems and Cyber Defense  
-**Module:** M115 — AI & Intelligent Systems  
-**Instructor:** Prof. Sara EL-ATEIF  
-**Academic Year:** 2026–2027  
-
-**Project:** M115 Lab 1 — Phishing URL Detection
