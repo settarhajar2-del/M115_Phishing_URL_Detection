@@ -129,7 +129,7 @@ The models are evaluated using:
 - PR-AUC
 
 <p align="center">
- ![Uploading image.png…]()
+ <img width="546" height="182" alt="image" src="https://github.com/user-attachments/assets/c9beaae1-14a7-4791-aa3b-4de88ce18ded" />
 
 </p>
 
