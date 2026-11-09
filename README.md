@@ -1,4 +1,4 @@
-#M115 Lab 1 — Phishing URL Detection
+ <p align="center"> M115 Lab 1 — Phishing URL Detection</p>
  <p align="center"> EDA, Parameterized Logistic Regression & SHAP Explainability </p>
 
 <p align="center">
