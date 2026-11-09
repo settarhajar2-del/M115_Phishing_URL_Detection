@@ -82,7 +82,7 @@ The class distribution illustrates the number of legitimate and phishing website
 
 The correlation heatmap helps identify relationships between numerical features and detect potentially relevant indicators for phishing classification.
 
-![Correlation Heatmap](figures/correlation_heatmap.png)
+![Correlation Heatmap]![Uploading image.png…]()
 
 ## 5. Data Preprocessing
 
