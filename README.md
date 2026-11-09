@@ -1,5 +1,5 @@
-# M115 Lab 1 — Phishing URL Detection
-### EDA, Parameterized Logistic Regression & SHAP Explainability
+#M115 Lab 1 — Phishing URL Detection
+ <p align="center"> EDA, Parameterized Logistic Regression & SHAP Explainability </p>
 
 <p align="center">
   <strong>ENSIASD Taroudant — Ibn Zohr University</strong><br>
