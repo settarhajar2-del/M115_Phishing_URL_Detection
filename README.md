@@ -82,7 +82,7 @@ The class distribution illustrates the number of legitimate and phishing website
 
 The correlation heatmap helps identify relationships between numerical features and detect potentially relevant indicators for phishing classification.
 
-![Correlation Heatmap]![Uploading image.png…]()
+![Correlation Heatmap]<img width="587" height="437" alt="image" src="https://github.com/user-attachments/assets/426a16aa-b6e6-4ff2-9787-c478d43e92b8" />
 
 ## 5. Data Preprocessing
 
@@ -125,7 +125,8 @@ The models are evaluated using:
 - F1-score
 - PR-AUC
 
-![Model Comparison](figures/model_comparison.png)
+![Model Comparison]<img width="587" height="437" alt="image" src="https://github.com/user-attachments/assets/c9076908-f356-4f4d-93d9-28dd30c212d0" />
+
 
 The comparison helps identify the configuration that provides the most suitable balance between phishing detection and false alarms.
 
