@@ -188,7 +188,8 @@ The selected thresholds are:
 | 0.85 | Automated Blocking — stricter decision threshold |
 
 <p align="center">
-  <img width="700" alt="Classification threshold analysis" src="figures/threshold_analysis.png">
+  <img width="548" height="108" alt="image" src="https://github.com/user-attachments/assets/f7c8c033-30aa-45c5-b8ed-2993611262b7" />
+
 </p>
 
 A lower threshold generally increases sensitivity to phishing websites, while a higher threshold can reduce false positives but may miss more phishing attempts.
